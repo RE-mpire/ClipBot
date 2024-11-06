@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clip-bot"
+version = "0.1.0"
+description = "clipboard automation"
+authors = ["Kyle Yang <REmpire.dev@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+rumps = "^0.4.0"
+pyperclip = "^1.9.0"
+parsedatetime = "^2.6"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
