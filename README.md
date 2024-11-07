@@ -48,6 +48,10 @@ AI code generation was also used on development for:
 
 ClipBot streamlines text manipulation by allowing users to transform content directly from their system clipboard, eliminating the need to switch between applications. It boosts productivity by providing quick access to common operations like text formatting, hash generation, and data conversions, making it particularly valuable for developers and content creators. While simple in concept, its integration with the system clipboard makes it a powerful tool for everyday text processing tasks.
 
+# Demo Video
+
+https://github.com/user-attachments/assets/f17f226f-cf46-4f5a-9a2e-5152ae8cd6a2
+
 # Setup
 
 First clone the project locally
