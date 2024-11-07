@@ -74,9 +74,12 @@ class ClipboardManager(rumps.App):
         """Setup developer tools menu"""
         self.developer_menu = rumps.MenuItem("Developer Tools")
 
-        options = ["MD5 Hash", "SHA1 Hash", "SHA256 Hash"]
+        options = ["MD5 Hash", "SHA1 Hash", "SHA256 Hash", None, "Base64 Encode", "Base64 Decode"]
         for op in options:
-            self.developer_menu.add(rumps.MenuItem(op, callback=self._copy_hash))
+            if op is None:
+                self.developer_menu.add(None)
+            else:
+                self.developer_menu.add(rumps.MenuItem(op, callback=self._copy_hash))
 
     def setup_color_menu(self):
         """Setup color conversion menu"""
@@ -232,6 +235,8 @@ class ClipboardManager(rumps.App):
             "MD5 Hash": hash_gen.get_md5,
             "SHA1 Hash": hash_gen.get_sha1,
             "SHA256 Hash": hash_gen.get_sha256,
+            "Base64 Encode": hash_gen.encode_base64,
+            "Base64 Decode": hash_gen.decode_base64,
         }
 
         hash = formats[sender.title]()

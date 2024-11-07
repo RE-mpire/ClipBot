@@ -27,7 +27,7 @@ ClipBot is a macOS menu bar utility that enhances the system clipboard with text
 - Text analysis (word count, reading time estimation)
 - Format conversions (case changes, date formats, colour codes)
 - Text cleanup (removing duplicates, empty lines)
-- Developer utilities (hash generation, CSV conversion)
+- Developer utilities (hash generation, CSV conversion, Base64 encode/decode)
 - Data format transformations (date, color codes)
 
 ### **Development Process**
