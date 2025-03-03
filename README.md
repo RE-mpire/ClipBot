@@ -16,9 +16,6 @@ A a clipboard tool that provides easy access to common tools to make to clipboar
 
 ClipBot is a powerful clipboard management tool designed to enhance your productivity by providing easy access to a variety of useful features. With ClipBot, you can effortlessly manage your clipboard history, quickly access frequently used items, and utilize a range of tools to make your clipboard more functional and efficient. Whether you're a developer, writer, or just someone who frequently uses copy-paste operations, ClipBot is here to streamline your workflow and save you time.
 
-# Tool Intro
-Tools used: [Claude](https://www.anthropic.com/claude), [GitHub Copilot](https://github.com/features/copilot), [ChatGPT](https://openai.com/chatgpt/overview/)
-
 # Questions
 
 ### **Functionality**
@@ -29,19 +26,6 @@ ClipBot is a macOS menu bar utility that enhances the system clipboard with text
 - Text cleanup (removing duplicates, empty lines)
 - Developer utilities (hash generation, CSV conversion, Base64 encode/decode)
 - Data format transformations (date, color codes)
-
-### **Development Process**
-
-During the ideation phase:
-- Used Claude to brainstorm potential features and narrow down the scope
-- Leveraged AI to research suitable APIs and technologies
-
-AI code generation was also used on development for:
-- Filling boilerplate class constructors and docstrings
-- Type annotations for better code maintainability
-- Regular expressions for pattern matching
-- Suggesting default values for reading time estimation formula
-- Generated sample text for demo purposes
 
 
 ### Usefulness
@@ -78,7 +62,7 @@ The tool should now be running in your toolbar in the upper right hand corner :)
 To run tests simply run `pytest` from the root directory of the repository.
 
 # License
-Copyright 2034 Kyle Yang
+Copyright 2025 Kyle Yang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
